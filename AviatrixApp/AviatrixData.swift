@@ -43,6 +43,5 @@ class AviatrixData {
             "SLC" : 0
         ]
     ]
-    
 }
 
