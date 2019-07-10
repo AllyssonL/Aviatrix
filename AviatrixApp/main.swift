@@ -74,9 +74,8 @@ func fuelCheck(myPlane : Aviatrix, destination : String) -> Bool {
     return true
 }
 
-var plane = Aviatrix()
-
-print("Welcome to the Aviatrix Flight System by _________")
+var plane = Aviatrix(aviatrixAuthor: "Allyson")
+print("Welcome to the Aviatrix Flight System by \(plane.author)")
 plane.start()
 
 print("You're currently in _________")
@@ -109,4 +108,4 @@ while command != "q" {
 }
 
 print(" ")
-print("Thanks for flying with _________ airline!")
+print("Thanks for flying with \(plane.author) airline!")
